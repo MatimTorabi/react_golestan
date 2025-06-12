@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-mobile: 340px;
+    --breakpoint-tablet: 640px;
+    --breakpoint-desktop: 1000px;
+}
+  
+@font-face {
+    font-family: Yekan;
+    src: url(../../public/fonts/Iran\ Sans\ Light.ttf);
+}
+@font-face {
+    font-family: Num;
+    src: url(../../public/fonts/IRANSansWeb-Light.woff2);
+}
+:root {
+    --fontFamily: Yekan;
+    --fontNumber: Num;
+}

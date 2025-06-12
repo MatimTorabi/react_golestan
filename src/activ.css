@@ -1,0 +1,56 @@
+.active{
+  top: 170px;
+}
+.submenu{
+  display: none;
+}
+&:hover .submenu{
+  display: block;
+}
+html,body{
+  scroll-behavior: smooth;
+}
+.paralax{
+  background-image: url("../../cooking/img-1.png");
+}
+
+.bg-img-dark{
+  background-image: url("../../footer/header-back.png");
+}
+
+.f{
+  background-image: url("../../footer/img-1.png");
+  &:hover{
+    background-image: url("../../footer/img-12.png");
+  }
+}
+.l{
+  background-image: url("../../footer/img-3.png");
+  &:hover{
+    background-image: url("../../footer/img-2.png");
+  }
+}
+.i{
+  background-image: url("../../footer/img-4.png");
+  &:hover{
+    background-image: url("../../footer/img-8.png");
+  }
+}
+.t{
+  background-image: url("../../footer/img-5.png");
+  &:hover{
+    background-image: url("../../footer/img-9.png");
+  }
+}
+.a{
+  background-image: url("../../footer/img-6.png");
+  &:hover{
+    background-image: url("../../footer/img-10.png");
+  }
+}
+.g{
+  background-image: url("../../footer/img-7.png");
+  &:hover{
+    background-image: url("../../footer/img-11.png");
+  }
+}
