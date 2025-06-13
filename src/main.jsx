@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './output.css'
 import './activ.css'
-import App from './components/App/App'
+import App from './components/App/App.jsx'
 import 'animate.css';
 
 
